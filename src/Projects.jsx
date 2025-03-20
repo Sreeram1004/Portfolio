@@ -9,7 +9,7 @@ const projectsData = [
       github: "https://github.com/Sreeram1004/Dear_Diary",
       live: "#", // Replace with live project link if available
       techStack: ["ReactJs", "Node.js", "MongoDB", "Express", "Tailwind CSS", "Mongo Client"],
-      image: "https://cdn-icons-png.flaticon.com/128/5969/5969028.png"
+      image: "https://i.ibb.co/gZMbhsPY/Diary.png" 
     },
     {
       name: "BookMYCourt",
@@ -17,7 +17,7 @@ const projectsData = [
       github: "https://github.com/Sreeram1004/Court-book",
       live: "#",
       techStack: ["ReactJs", "Node.js", "Express", "MongoDB", "Tailwind Css"],
-      image: "https://cdn-icons-png.flaticon.com/128/5969/5969028.png"
+      image: "https://i.ibb.co/PvwttjBt/Book-My-Court.png"
     },
     {
       name: "Fooddel",
@@ -25,7 +25,7 @@ const projectsData = [
       github: "https://github.com/Sreeram1004/Food_del",
       live: "#",
       techStack: ["JavaScript", "HTML", "CSS", "API Integration","ReactJs"],
-      image: "https://cdn-icons-png.flaticon.com/128/5969/5969028.png"
+      image: "https://i.ibb.co/KSycwHR/Fooddel.png" 
     }
   ];
   
@@ -35,7 +35,7 @@ const projectsData = [
       <div className="flex flex-col gap-8 max-w-6xl mx-auto">
         {projectsData.map((project) => (
           <div key={project.name} className="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row gap-6">
-            <img src={project.image} alt={project.name} className="w-full md:w-1/3 h-52 object-cover rounded-lg" />
+            <img src={project.image} alt={project.name} className=" md:w-1/3 h-52 object-cover rounded-lg" />
             <div className="flex-1">
               <h2 className="text-2xl font-semibold">{project.name}</h2>
               <p className="mt-2 text-gray-700">{project.description}</p>
